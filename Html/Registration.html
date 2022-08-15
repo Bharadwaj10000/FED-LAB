@@ -1,0 +1,34 @@
+<!DOCTYPE html>   
+<html>   
+<head>    
+<title>Registration Page </title>   
+</head>    
+<body>    
+    <center> <h1> Customer Registration </h1> </center>   
+    <form>
+        <center>
+            <label>User name:</label> <input type="text"  required autofocus pattern="[a-zA-Z]+" maxlength="15" > <br><br>
+            <label>Password :</label> <input type="password" required minlength="8" maxlength="12" pattern="[0-9]{1}[a-zA-Z0-9]+[0-9]{1}"> <br><br>
+            <label>Email:</label> <input type="email" required  > <br><br>
+            <label>Gender:</label> 
+            <input type="radio" name="btn" ><label>Male</label>
+            <input type="radio" name="btn"><label>Female</label>
+            <input type="radio" name="btn"><label>Other</label><br><br>
+            <label>Age:</label><input type="number" required  pattern="^(1[2-9]|[2-5][0-9]|60)$" ><br><br>
+            <label>Address:</label><textarea required maxlength="100" rows="4" cols="20"></textarea><br><br>
+            <label >Choose Country:</label>
+            <select>
+              <option value="India">India</option>
+              <option value="United States">United States</option>
+              <option value="Germany">Germany</option>
+              <option value="Japan">Japan</option>
+            </select><br><br>
+            <label>Choose Date :</label><input type="date" required/>
+            <br><br>
+            <input type="submit" value="Submit">
+            
+            <input type="reset" value="Reset">
+        </center>      
+ </form>     
+</body>     
+</html>
