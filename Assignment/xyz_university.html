@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>xyz university </title>
+    <link rel="stylesheet" href="xyz_university.css"/>
+</head>
+<body>
+    <h2> <center>Registeration Form</center></h2>
+    <hr/>
+    <center>
+        <form>
+            <label >First Name:</label>
+            <input type="text" required maxlength="10"/><br><br>
+            <label >Last Name:</label>
+            <input type="text" required maxlength="10"/><br><br>
+            <label >Date of birth :</label>
+            <input type="date" required /><br/><br/>
+            <label >Gender:</label>
+            <input type="radio" name="gender"/>Male
+            <input type="radio" name="gender"/>Female
+            <input type="radio" name="gender"/>other
+            <br/><br/>
+            <label>Degree:</label>
+            <select>
+            <option value="Bachelors">Bachelors</option>
+            <option value="Masters">Masters</option>
+            <option value="Doctorate">Doctorate</option>
+            </select><br/><br/>
+            <label>Specialization:</label>
+            <input type="text" maxlength="40" required/><br/><br/>
+            <label>Current CGPA:</label>
+            <input type="number" min="0" max="5" step="0.1" required/><br/><br/>
+            <label>Phone Number:</label>
+            <input type="text" pattern="[0-9]{10}" required/><br/><br/>
+            <label>Address:</label>
+            <textarea rows="4" cols="40" required>
+            </textarea><br/><br/>
+            <input type="Submit"/>
+        </form>
+    </center>
+</body>
+</html>

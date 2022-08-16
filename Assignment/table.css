@@ -1,0 +1,9 @@
+table{
+    border: 1.5px;
+    border-style: outset;
+}
+th,td:not(#important){
+    border: 1.5px;
+    border-style:inset;
+    text-align: center;
+}
