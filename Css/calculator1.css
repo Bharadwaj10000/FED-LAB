@@ -1,0 +1,9 @@
+td{
+    background-color: orange;
+}
+input[type='button']{
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    border:none;
+}
